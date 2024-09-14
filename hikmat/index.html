@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1
+        sum("ali");
+        function sum(a){
+            console.log("Hello"+","+a);
+            
+        }
+        // 2
+        var dog = {name:"jak",breed:"japan"};
+        console.log(dog.name);
+        console.log(dog.breed);
+        // 3
+        var a =["banana","watermelon","pomegranate"];
+        console.log(a[0]);
+
+        // 4
+        dnum(10)
+        function dnum(x) {
+            console.log(x*x);
+            
+            
+        }
+        // 5
+       
+        var student = {name:"ali",grade:"A",
+        
+         showgrade: function() {
+            console.log(this.grade);
+            
+            
+        }};
+        student.showgrade();
+        // 6
+        isPositive(0);
+        function isPositive(a) {
+            if (a>0) {
+                console.log("the number is positive");
+                
+            } 
+            else if(a==0){
+                console.log("the number is zero");
+
+
+            }
+            else {
+                console.log("the number is negative");
+
+                
+            }
+            
+        }
+        // 7
+        var color = ["red","blue","black","green","pink"];
+        console.log(color.length-1);
+        // 8
+        var phone = {brand:"iphone",model:"15 pro"};
+        console.log("the model is " + phone.model);
+        // 9
+        dnum(4)
+        function dnum(x) {
+            console.log(x*x);
+            
+            
+        }
+        // 10
+        var numbers = [1,2,3,4,5];
+        function sumarray(arr){
+            let sum = 0;
+            for (let i = 0; i < arr.length; i++) {
+                sum += arr[i];
+                
+            }
+            return sum;
+        }
+        const total = sumarray(numbers);
+        console.log("the total of the array" +total);
+        
+        
+
+
+
+
+
+        
+
+
+        
+
+
+
+        
+
+        
+
+        
+    </script>
+    
+</body>
+</html>
